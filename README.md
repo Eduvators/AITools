@@ -59,7 +59,7 @@ Share feedback on how we can make the site more helpful
 This project was inspired by the evolving intersection of AI and education, and built by passionate educators who believe in empowering others through accessible, innovative technologies.
 
 👩‍🏫 Maintained by
-EDUvators – Educational Innovators with Vision
+Eduvators – Educational Innovators with Vision
 For questions or collaborations, please reach out or visit our GitHub profile.
 
-Would you like this as a downloadable Markdown file or want me to help embed this into the GitHub Pages interface directly?
+
