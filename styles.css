@@ -555,6 +555,11 @@ main {
 }
 
 @media (max-width: 768px) {
+  .tool-description {
+    opacity: 1 !important;
+    position: static !important;
+    background: #fff;
+  }
     body {
         padding: 1rem;
     }
