@@ -1,65 +1,28 @@
-💡 EDUvators AI Tools – README
-Welcome to the EDUvators AI Tools directory — a curated collection of powerful, easy-to-use artificial intelligence tools for educators, students, creators, and lifelong learners.
+# AI Tools Directory
 
-🔗 Live site: https://eduvators.github.io/AITools/
+A modern, mobile-friendly directory of free AI tools curated for educators and students. Easily browse, discover, and access leading AI-powered resources to enhance teaching and learning workflows.
 
-📘 About This Project
-The EDUvators AI Tools site is designed to:
+## Features
+- Clean, responsive design (works great on desktop and mobile)
+- Carefully selected, 100% free tools with education in mind
+- Quick links and descriptions for each tool
+- Easy to customize or expand
 
-Showcase AI tools that are practical for education and creativity
+## Getting Started
+1. Open `aitools.html` in any web browser (no build or install required).
+2. To customize the tool list, simply edit `aitools.html` and `styles.css`.
 
-Provide brief descriptions, links, and categories for quick access
+## Project Structure
+- `aitools.html` — Main HTML file with the directory content
+- `styles.css` — Custom styles for layout and responsiveness
+- `README.md` — Project overview and instructions
 
-Help educators and learners explore and experiment with tools across various disciplines, including audio, video, images, writing, 3D, and immersive technologies
+## Mobile Compatibility
+The directory is designed to be fully usable on phones and tablets. All cards and grids stack vertically, and images/text scale for readability.
 
-This is a living resource that will continue to grow and evolve as new tools emerge and as we learn more about how to use AI ethically and effectively in teaching and learning environments.
+## Credits
+Created by Eduvators.net
 
-🧠 Key Features
-🔍 Categorized Tool Listings
-Quickly find tools for video creation, text generation, imagery, 3D modeling, and more.
+---
 
-🧭 Educator-Friendly Navigation
-Simple interface designed for ease of use—even for those new to AI.
-
-💬 Practical Use Cases
-Designed with examples and ideas to spark implementation in real-world classrooms.
-
-⚙️ Lightweight and Fast
-Built with GitHub Pages for speed and accessibility with no logins or installs required.
-
-📂 Repository Structure
-bash
-Copy
-Edit
-📁 AITools/
-├── index.html         # Main landing page with tool categories and descriptions
-├── css/               # Stylesheets for site design
-├── js/                # JavaScript (if any interactive features are used)
-├── assets/            # Icons, logos, and static media
-└── README.md          # This file
-📥 How to Use This Site
-Visit https://eduvators.github.io/AITools/
-
-Browse tools by category
-
-Click the links to visit and explore each tool
-
-Bookmark or share tools with students, colleagues, or friends
-
-🛠️ Contributing
-This is a community-focused project! If you are an educator, developer, or AI enthusiast who wants to contribute:
-
-Submit issues or feature requests
-
-Fork the repo and create a pull request with suggested updates or additions
-
-Share feedback on how we can make the site more helpful
-
-✨ Inspiration
-This project was inspired by the evolving intersection of AI and education, and built by passionate educators who believe in empowering others through accessible, innovative technologies.
-
-👩‍🏫 Maintained by
-Eduvators – Educational Innovators with Vision
-For questions or collaborations, please reach out or visit our GitHub profile.
-
-
+Want to add more tools or features? Just edit the HTML and CSS, or ask for help!

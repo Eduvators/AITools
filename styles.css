@@ -305,7 +305,67 @@ main {
     display: none;
 }
 
-/* Eduvators branding styles */
+#rock-game-section {
+  background: #191919;
+  color: #fff;
+  padding: 2em 1em;
+  margin: 2em auto;
+  max-width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+#rock-game-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#question-container {
+  width: 100%;
+  text-align: center;
+}
+#question-image {
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+}
+#answers {
+  margin: 1.5em 0 1em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+}
+.answer-btn {
+  background: #f5a623;
+  color: #191919;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75em 1.5em;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.answer-btn:hover:not(:disabled) {
+  background: #ffd700;
+  color: #000;
+}
+.answer-btn.correct {
+  background: #27ae60;
+  color: #fff;
+}
+.answer-btn.incorrect {
+  background: #c0392b;
+  color: #fff;
+}
+#feedback {
+  font-size: 1.15em;
+  margin-top: 1em;
+  min-height: 2em;
+}
+
 .eduvators-branding {
     background-color: #FF6B2B;
     color: white;
@@ -501,8 +561,21 @@ main {
     body {
         padding: 1rem;
     }
-    
     .tools-grid {
         grid-template-columns: 1fr;
+    }
+    .site-header, .header-content, .intro-section, .tool-card {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tool-card {
+        margin-bottom: 1.5rem;
+    }
+    .tool-logo {
+        max-width: 80px;
+        height: auto;
+    }
+    h1, h2 {
+        font-size: 1.5rem;
     }
 }
